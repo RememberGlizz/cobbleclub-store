@@ -2,6 +2,6 @@
 window.COBBLECLUB_SITE = {
   serverIp: "play.cobble-club.com",
   wikiUrl: "https://wiki.cobble-club.com",
-  modrinthUrl: "https://modrinth.com/modpack/cobbleclub",
-  curseforgeUrl: "https://www.curseforge.com/minecraft/modpacks/cobbleclub"
+  modrinthUrl: "https://modrinth.com/server/cobbleclub-network",
+  curseforgeUrl: "https://www.curseforge.com/minecraft/modpacks/cobble-club"
 };
