@@ -124,6 +124,9 @@ app.post("/api/donate", rateLimit({
     const amountCents = Math.round(amount * 100);
     const session = await stripe.checkout.sessions.create({
       mode: "payment",
+      managed_payments: {
+        enabled: false
+      },
       line_items: [{
         price_data: {
           currency,
@@ -168,6 +171,9 @@ app.post("/api/checkout", rateLimit({
 
     const session = await stripe.checkout.sessions.create({
       mode: "payment",
+      managed_payments: {
+        enabled: false
+      },
       line_items: [{
         price_data: {
           currency,
