@@ -2,22 +2,22 @@ const ranks = [
   {
     key: "ace", name: "Ace", monthly: 1998, lifetime: 4995, badge: "TRAINER TIER", icon: "/assets/rank-ace.png",
     description: "Step into the Club with a premium rank built for active trainers.",
-    perks: ["Ace rank and exclusive Ace tag", "Ace Kit every 18 hours", "2 Shiny Keys", "6 Rare Candy", "6 Ultra Balls + 12 Quick Balls", "50 XP", "Rank-based kit cooldown reduction access"]
+    perks: ["Ace rank and exclusive Ace tag", "Ace Kit every 18 hours", "2 Shiny Keys", "6 Rare Candy", "6 Ultra Balls + 12 Quick Balls", "50 XP", "Rank-based kit cooldown reduction access", "30 seconds faster RTP cooldown"]
   },
   {
     key: "champion", name: "Champion", monthly: 3998, lifetime: 9995, badge: "ELITE TIER", icon: "/assets/rank-champion.png",
     description: "A stronger progression tier with recurring Legendary and Shiny crate access.",
-    perks: ["Champion rank and exclusive Champion tag", "Champion Kit every 18 hours", "1 Legendary Key + 1 Shiny Key", "8 Rare Candy", "8 Ultra Balls + 16 Quick Balls", "64 XP", "Rank-based kit cooldown reduction access"]
+    perks: ["Champion rank and exclusive Champion tag", "Champion Kit every 18 hours", "1 Legendary Key + 1 Shiny Key", "8 Rare Candy", "8 Ultra Balls + 16 Quick Balls", "64 XP", "Rank-based kit cooldown reduction access", "60 seconds faster RTP cooldown"]
   },
   {
     key: "master", name: "Master", monthly: 5998, lifetime: 14995, badge: "MASTER TIER", icon: "/assets/rank-master.png", featured: true,
     description: "A high-tier supporter rank with a powerful recurring kit and broad crate access.",
-    perks: ["Master rank and exclusive Master tag", "Master Kit every 18 hours", "2 Beast Balls", "1 Legendary + 1 Shiny + 1 Vote Key", "16 Rare Candy", "32 Quick Balls", "96 XP", "Rank-based kit cooldown reduction access"]
+    perks: ["Master rank and exclusive Master tag", "Master Kit every 18 hours", "2 Beast Balls", "1 Legendary + 1 Shiny + 1 Vote Key", "16 Rare Candy", "32 Quick Balls", "96 XP", "Rank-based kit cooldown reduction access", "90 seconds faster RTP cooldown"]
   },
   {
     key: "legend", name: "Legend", monthly: 7998, lifetime: 19995, badge: "ULTIMATE TIER", icon: "/assets/rank-legend.png", featured: true,
     description: "The highest CobbleClub supporter rank with our strongest recurring kit.",
-    perks: ["Legend rank and exclusive Legend tag", "Legend Kit every 18 hours", "1 Master Ball", "1 Shiny Key + 3 Vote Keys", "46 Rare Candy", "46 Quick Balls", "178 XP", "Up to 6 hours of kit cooldown reduction"]
+    perks: ["Legend rank and exclusive Legend tag", "Legend Kit every 18 hours", "1 Master Ball", "1 Shiny Key + 3 Vote Keys", "46 Rare Candy", "46 Quick Balls", "178 XP", "Up to 6 hours of kit cooldown reduction", "120 seconds faster RTP cooldown"]
   }
 ];
 
